@@ -33,7 +33,7 @@ export class CrossAccountCdkpipelineStack extends Stack {
             // branch: "develop"
         }),
 
-        // How it will cdk be built and synthesized
+        // How cdk will be built and synthesized
         synthAction: SimpleSynthAction.standardNpmSynth({
             sourceArtifact: cdkSourceOutput,
             cloudAssemblyArtifact,
