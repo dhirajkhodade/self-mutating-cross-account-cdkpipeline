@@ -45,7 +45,7 @@ export class CrossAccountCdkpipelineStack extends Stack {
     const nonProdAccount = { account: "222222", region: "us-east-1" };
    
     // This is where we add the application stages
-    pipeline.addApplicationStage(new CreateIisEbEnvironmentStage(this, 'IIS_EBInfra_Dev', {
+    pipeline.addApplicationStage(new CreateIisEbEnvironmentStage(this, 'IISEBInfraDev', {
         env: { account: nonProdAccount.account, region: nonProdAccount.region }
     }));
 
