@@ -1,6 +1,6 @@
 # Welcome to Self Mutating CROSS Account AWS CDK Pipeline project!
 
-This is a CDK application which creates CI/CD pipeline to deploy CDK applications to same or another AWS account.
+This is a CDK application which creates self mutating CI/CD pipeline to deploy CDK applications to same or another AWS account.
 
 ## Project Summary
 
